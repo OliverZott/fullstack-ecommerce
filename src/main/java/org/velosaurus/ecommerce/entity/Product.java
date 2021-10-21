@@ -43,9 +43,9 @@ public class Product {
     @CreationTimestamp
     private Date dateCreated;
 
-    @Column(name = "date_updated")
+    @Column(name = "last_updated")
     @UpdateTimestamp
-    private Date dateUpdated;
+    private Date lastUpdated;
 
     @ManyToOne
     @JoinColumn(name = "category_id")

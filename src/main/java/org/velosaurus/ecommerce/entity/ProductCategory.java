@@ -8,9 +8,9 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Table(name = "product")
+@Table(name = "product_category")
 //@Data
-// known lombock bug with many-to-many
+// known Lombock bug with many-to-many
 @Getter
 @Setter
 public class ProductCategory {
