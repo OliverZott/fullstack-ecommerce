@@ -1,6 +1,5 @@
 package org.velosaurus.ecommerce.entity;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
